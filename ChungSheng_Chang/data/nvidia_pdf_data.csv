@@ -1,0 +1,663 @@
+page_num,text
+1,"Investor Presentation
+October 2024
+1"
+2,"Except for the historical information contained herein, certain matters in this presentation including, but not limited to, statements as to: our financial position; our markets and market opportunity; demand and supply; demand
+and growth drivers; the benefits, impact, performance, features and availability of our products and technologies; Blackwell platform being in full production – expanding to support x86 and NVIDIA Grace, air and liquid cooling,
+NVLink 8-GPU to NVLink 72-GPU, InfiniBand and Ethernet, CSP, regional AI factories, and enterprise platforms; AI training continuing scaling law; the $1T installed base of general-purpose CPU data center infrastructure being
+modernized to a new GPU accelerated computing paradigm; AI Factories expanding the data center footprint to $2T and beyond in the coming years; companies in every industry operating AI factories as the digital twin of their
+workforce, manufacturing plants, and products; every company producing digital intelligence; tokens being the transformed into intelligent responses and actions of digital nurses, tutors, customer service agents, and chip
+designers, manufacturing robots and autonomous cars, and weather prediction agents to warn us of storms; some companies building and operating AI factories, while others renting; countries awakening to the need to treat its
+data as a national resource and AI factories as an essential national infrastructure; data being able to be transformed into the sovereign AI for its companies, startups, universities and governments; NVIDIA being able to address
+many major workloads across a wide range of industries; accelerated computing enabling full-stack optimization from algorithm to GPU architecture; AI scaling laws driving exponential demand for compute; NVIDIA being the
+leading inference platform; inference compute scaling exponentially with “long thinking”; compute demand for AI scaling exponentially; model size, multi-modality, synthetic data generation and reinforcement learning scaling
+computing capacity by ~4x per year; NVIDIA NVLink enabling new level of AI training & inference scaling; NVIDIA addressing the entire AI market; NVIDIA being able to address every industry from healthcare, manufacturing, and
+transportation to retail, CSPs, and telecommunications; NVIDIA AI platform and ecosystem reaching every market; AI driving investment cycle and significant returns; AI accelerating scientific discovery, creativity, and productivity
+across industries; AI agents being able to generate documents, review contracts, help code and debug software, operationalize marketing campaigns, and review medical images; social media, search and e-commerce apps using
+deep recommenders; creators being able to generate stunning, photorealistic images or 3D objects with a single text prompt; call center agents augmented with AI chatbots being able to scale to deliver customer care during
+peak times, run in-the-loop with customer support to provide better service, and capture every interaction to build institutional knowledge in high turnover industries; drug discovery seeing order-of-magnitude workflow
+acceleration using generative for candidate drug generation and target selection; manufacturing using generative AI to generate ideas to inspire designers, accelerate the planning and layout of factories and warehouses, and for
+self-learning robots that can handle diverse tasks in changing work environments; climate tech scientists using AI to discover new materials for better batteries, emulate complex physics to predict long-range weather, estimate
+carbon-capture sites, optimize wind farm output; companies leveraging AI to unlock new monetizable applications, enhance employee productivity, and transform their business models; industrial AI applications serving large
+markets – including 10M factories, 200K warehouses, billions of humanoid robots, and 100M autos manufactured each year; specialized AI co-pilots collaborating with employees, being given access to necessary data, using
+platform tools like SAP, Snowflake, or ServiceNow, and collaborating with other AI agents; the world’s companies hiring billions of AI agents in its workforce; NVIDIA AI Enterprise enabling IT ecosystem with state-of-the-art AI
+models and libraries to build agentic AI; physical AI embodying robotic systems; nations are awakening to the imperative to produce artificial intelligence using their own infrastructure, data, workforces and business networks;
+and nations building domestic computing capacity through various models are forward-looking statements.
+These forward-looking statements and any other forward-looking statements that go beyond historical facts that are made in this presentation are subject to risks and uncertainties that may cause actual results to differ
+materially. Important factors that could cause actual results to differ materially include: global economic conditions; our reliance on third parties to manufacture, assemble, package and test our products; the impact of
+technological development and competition; development of new products and technologies or enhancements to our existing product and technologies; market acceptance of our products or our partners' products; design,
+manufacturing or software defects; changes in consumer preferences and demands; changes in industry standards and interfaces; unexpected loss of performance of our products or technologies when integrated into systems
+and other factors. NVIDIA has based these forward-looking statements largely on its current expectations and projections about future events and trends that it believes may affect its financial condition, results of operations,
+business strategy, short-term and long-term business operations and objectives, and financial needs. These forward-looking statements are subject to a number of risks and uncertainties, and you should not rely upon the
+forward-looking statements as predictions of future events. The future events and trends discussed in this presentation may not occur and actual results could differ materially and adversely from those anticipated or implied in
+the forward-looking statements. Although NVIDIA believes that the expectations reflected in the forward-looking statements are reasonable, the company cannot guarantee that future results, levels of activity, performance,
+achievements or events and circumstances reflected in the forward-looking statements will occur. Except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events
+or circumstances. For a complete discussion of factors that could materially affect our financial results and operations, please refer to the reports we file from time to time with the SEC, including our most recent Annual Report
+on Form 10-K, Quarterly Reports on Form 10-Q, and Current Reports on Form 8-K. Copies of reports we file with the SEC are posted on our website and are available from NVIDIA without charge.
+Many of the products and features described herein remain in various stages and will be offered on a when-and-if-available basis. The statements within are not intended to be, and should not be interpreted as a commitment,
+promise, or legal obligation, and the development, release, and timing of any features or functionalities described for our products is subject to change and remains at the sole discretion of NVIDIA. NVIDIA will have no liability for
+failure to deliver or delay in the delivery of any of the products, features or functions set forth herein.
+NVIDIA uses certain non-GAAP measures in this presentation including non-GAAP operating income, non-GAAP operating margin, and free cash flow. NVIDIA believes the presentation of its non-GAAP financial measures
+enhances investors' overall understanding of the company's historical financial performance. The presentation of the company's non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the
+company's financial results prepared in accordance with GAAP, and the company's non-GAAP measures may be different from non-GAAP measures used by other companies. Further information relevant to the interpretation of
+non-GAAP financial measures, and reconciliations of these non-GAAP financial measures to the most comparable GAAP measures, may be found in the slide titled “Reconciliation of Non-GAAP to GAAP Financial Measures”.
+2"
+3,"NVIDIA
+NVIDIA’s invention of the GPU in 1999 sparked the growth of the PC gaming market,
+redefined computer graphics, revolutionized accelerated computing, ignited the era
+of modern AI, and is fueling industrial digitalization across markets.
+Today, two transitions are occurring simultaneously—accelerated computing and
+generative AI—transforming the computer industry and every other industry worldwide,
+and NVIDIA is enabling these transitions with our full-stack computing platform and
+data-center-scale offerings.
+NVIDIA’s platform is installed in several hundred million computers, is available in every
+cloud and from every server maker, powers over 75% of the TOP500 supercomputers,
+and has close to 5.5 million developers.
+Headquarters: Santa Clara, CA | Headcount: 30,000+"
+4,"World’s First GPU Turns 25
+NVIDIA released GeForce 256, the world’s first GPU, 25 years ago.
+This marked a milestone in computing by providing gamers with
+higher frame rates, smoother gameplay, and life-like graphics.
+NVIDIA's GPU set the foundation for the big bang of modern AI,
+a decade later. The parallel processing power of NVIDIA GPUs and
+the invention of a revolutionary programming model “CUDA”
+attracted researchers who recognized the opportunity to
+accelerate computationally-demanding applications like physical
+and chemical simulations and deep learning.
+NVIDIA released the GeForce RTX series in 2018, reinventing
+computer graphics once again with real-time ray tracing and neural
+rendering, applying AI to generate pixels at quality and speed no
+one thought possible.
+Today, the world recognizes GPUs not only for reshaping gaming
+but also for powering the AI industrial revolution. NVIDIA GeForce
+256 started an era where gaming, computing, and AI evolve
+together, fundamentally advancing entertainment, technology,
+and society."
+5,"NVIDIA Scaling with AI Scale -Up and Scale -Out
+NVIDIA’s chips and systems supply chain expanded significantly in 2024, while demand continues to exceed supply.
+NVIDIA Blackwell platform in full production – expanding to support x86 and NVIDIA Grace, air and liquid cooling,
+NVLink 8-GPU to NVLink 72-GPU, InfiniBand and Ethernet, CSP, regional AI factories, and enterprise platforms.
+One Year Rhythm at full infrastructure scale.
+AI training continues AI scaling law. OpenAI o1 starts inference-time scaling law. Inference is driving significant
+workload growth and demand.
+Regional and sovereign clouds start up around the world.
+NVIDIA AI Enterprise and Omniverse set the foundations for enterprise and industrial AI."
+6,"Accelerated Computing and
+Generative AI Create
+Trillion- dollar Opportunities
+The $1T installed base of general-purpose CPU data
+center infrastructure is being modernized to a new
+GPU accelerated computing paradigm.
+AI Factories
+AI
+The entire computing stack has been reinvented –
+from CPU to GPU, from coding to machine learning,
+from software to generative AI. Computers generate
+intelligence tokens, a new commodity.
+General-Purpose Accelerated
+A new type of data center, AI Factories, is expanding
+Computing Computing
+the data center footprint to $2T and beyond in the
+coming years. Eventually, companies in every
+Traditional GPU-Accelerated
+industry will operate AI factories as the digital twin
+Data Centers Data Centers
+of their workforce, manufacturing plants, and
+products. A new industrial revolution has begun."
+7,"AI Factories —A New
+Class of Data Centers
+Production of digital intelligence tokens
+AI factories are a new form of computing infrastructure. Its
+purpose is not to store user and company data or run ERP and CRM
+applications. AI factories are highly optimized systems purpose-
+built to process raw data, refine it into models, and produce
+monetizable tokens with great scale and efficiency.
+Data Tokens
+In the AI industrial revolution, data is the raw material, tokens are
+the new commodity, and NVIDIA is the token generator in the AI
+factory.
+Every company will produce digital intelligence. Tokens will be
+transformed into intelligent responses and actions of digital
+nurses, tutors, customer service agents, and chip designers,
+AI Factory
+manufacturing robots and autonomous cars, and weather
+prediction agents to warn us of storms. Some companies will build
+and operate AI factories, while others will rent.
+Countries are awakening to the need to treat its data as a national
+resource and AI factories as an essential national infrastructure.
+Data encodes a nation's history, knowledge, and culture, and can be
+transformed into the sovereign AI for its companies, startups,
+universities and governments.
+NVIDIA builds the complete AI system and licenses NVIDIA AI
+Enterprise, the AI stack and operating system for AI factories."
+8,"NeMo NVIDIA’s Accelerated
+CUDA-Accelerated
+Agentic AI Libraries
+CUDA-X
+Omniverse
+Libraries CUDA-Accelerated Computing Platform
+Physical AI Libraries
+Data center scale innovation across chips,
+CUDA • DOCA • NCCL
+NIM CUDA-
+networking, systems, software, and algorithms
+Cluster-Scale Software Accelerated
+Accelerated
+“All in-a-
+Software Stack
+System Software
+Container”
+Chip Software
+NVIDIA has accelerated software and compute
+by a 1,000,000X in the last decade, far
+surpassing Moore’s law.
+Accelerated computing requires full-stack
+innovation—optimizing across every layer
+Transceivers NVLink Switch
+& Cables of computing—from chips and systems to
+software and algorithms, demanding deep
+GB200 NVL72 NVLINK
+SuperPOD Switch & Spine
+understanding of the problem domain.
+Our platform extends from the cloud and
+Quantum
+enterprise data centers to supercomputing,
+&
+Spectrum
+Blackwell Chips Purpose-Built for AI Supercomputing
+Switch
+edge computing, PCs, and robotics.
+HGX-Node GPU | CPU | DPU | NIC | NVLINK Switch | IB Switch | ENET Switch
+Grace
+Blackwell
+MGX-Node"
+9,"Extending NVIDIA Networking
+to Scale -Up and Scale -Out AI in Any Datacenter
+New NVLink and Spectrum-X Increase Networking Opportunity Beyond InfiniBand to Every Data Center
+NVIDIA Spectrum-X
+AI Ethernet Fabric
+NVIDIA NVIDIA NVIDIA
+NVLink InfiniBand Spectrum-X
+10 100 1k 10k 100k 1M+ Fastest Supercomputing Ethernet Optimized
+Interconnect for and Dedicated for Multi-Tenant
+GPU Scale-Up AI Factories AI Factories
+# of GPU in a Data Center
+Generative AI is a Data Center-Scale Computing Workload
+Limitless Scaling with NVLINK + InfiniBand or Spectrum-X
+ecnamrofreP
+IA
+NVLink +
+InfiniBand / Spectrum-X
+InfiniBand
+Traditional Ethernet"
+10,"Data Processing
+Accelerated Computing
+200X
+cuVS, cuDF-Spark, cuDF-pandas, cuDF-Polars,
+~
+cuGraph, cuML, XGBoost, RAPIDS, NeMo Curator,
+cuSOLVER, cuIO
+Starts with CUDA Libraries
+Delivering up to 200X Speedup
+Computer Vision
+Across Major Workloads CV-CUDA, Deepstream, TAO, Holoscan, cuCIM,
+200X
+TensorRT, Triton Inference Server, DALI,
+~
+nvImageCodec, cuDNN, nvJPEG, nvJPEG2000,
+nvTIFF, NPP, Video Codec SDK, Magnum IO, NCCL,
+cuVS, DALI
+Science
+Unlike CPU general-purpose computing, GPU-accelerated
+Earth-2 CorrDiff, Holoscan, Parabricks, Monai,
+computing requires software and algorithms to be re-designed.
+100X
+Modulus, Warp, cuLitho, cuQuantum, CUDA-Q,
+~
+Software is not automatically accelerated in the presence of a GPU
+AmgX, cuDSS, cuFFT, cuSOLVER, cuBLAS,
+cuSPARSE, cuTENSOR, cuGraph, Magnum IO,
+or accelerator.
+NCCL, NVSHMEM, RAFT, cuNumeric, Sionna
+NVIDIA CUDA libraries encapsulate NVIDIA-engineered algorithms
+that enable applications to be accelerated on NVIDIA’s installed
+Deep Learning
+100X
+base. They deliver dramatically higher performance—compared to
+cuDNN, CUTLASS, Megatron, TensorRT, TRT LLM,
+~
+NCCL, NV-Triton, CUDA-optimized PyTorch,
+CPU-only alternatives—across application domains, including AI
+Tensorflow, Triton, Jax
+and high-performance computing significantly reducing run time,
+cost, energy, while increasing scale.
+Recommender Systems
+With over 400 CUDA libraires NVIDIA can address many major
+50X
+Merlin, HugeCTR, TensorRT, Triton Inference Server,
+~
+workloads across a wide range of industries. As new libraries
+cuBLAS, cuDNN, cuFFT, cuSPARSE, CUTLASS,
+become available, they unlock new markets adding to our Magnum IO, NCCL, cuVS
+long-term opportunity.
+Speech AI
+30X
+~
+Riva, TensorRT, Triton Inference Server, NeMo,
+cuBLAS, cuDNN, cuFFT, CUTLASS
+Agentic & Physical AI
+ACE, Riva, Nemo, Tokkio Digital Human,
+100X
+~
+Holoscan, Metropolis, Omniverse, Isaac, DRIVE,
+cuLitho, cuMotion, cuOpt, Aerial CUDA-accelerated
+RAN, Sionna, fVDB, PhysX, Warp, NVblox"
+11,"Accelerated Computing Is Sustainable Computing
+Accelerated computing requires higher peak
+power consumption than CPUs, however,
+completes workloads significantly faster and
+consumes less total energy
+Time(sec)
+)Wk(
+PDT
+revreS
+Order-of-Magnitude More Energy-Efficient
+Accelerated computing enables full-stack
+optimization from algorithm to GPU architecture,
+such as Tensor Core Transformer Engine;
+LLM energy-efficiency improved 100,000X
+in the past 10 years
+Kepler
+Energy Usage in AI Inference GPT-MoE-1.8T energy per token
+42000 Joules/Token
+NVIDIA
+Pascal
+17640 J/Token
+CPU
+Volta
+1200 J/Token
+Ampere
+Hopper
+150 J/Token
+Blackwell
+10 J/Token
+0.4 J/Token
+2014 2024"
+12,"AI Scaling Laws Drive Exponential Demand for Compute
+New OpenAI o1 Long “Thinking Time” Creates a New Way to Scale
+Training compute scales exponentially
+with larger models, multi-modality,
+reinforcement learning, and synthetic
+Training
+data generation
+Compute
+Inference compute scales exponentially
+with larger models, multi-modality,
+large context, low latency, and now
+Inference
+long “thinking time”
+Compute
+o1
+12"
+13,"NVIDIA is the Leading Inference Platform
+Inference Compute Scales Exponentially with “Long Thinking”
+Hopper inference performance Installed base & CUDA ➔ rapid software innovation Inference compute scaling exponentially with
+increased 5X in 1 Year ➔ performance ➔ lower inference cost ➔ large multi-modal models, Chain-of-Thought,
+with rapid algorithm innovations increase demand ➔ reasoning, agents, and low latency responses
+enabled by rich NVIDIA CUDA ecosystem increase installed base
+Flash Attention
+KVCache PageAttention
+Distillation
+Pruning & Quantization
+Neural Architecture Search
+GB200 NVL72
+Disaggregated Serving NVLink Switches
+Speculative Decoding 130 TB/s All-to-All BW
+Multi-GPU, Multi-Node
+One Giant Blackwell
+1.44 EF FP4
+576TB/s HBM3e
+13"
+14,"NVIDIA AI Infrastructure Roadmap at One Year Rhythm
+NVIDIA’s newest architecture – Blackwell – is an AI infrastructure platform and integrates seven chips,
+each contributing to performance at data center-scale.
+Compute demand for AI is scaling exponentially. Model size, multi-modality, synthetic data generation and
+reinforcement learning is scaling computing capacity by ~4x per year. And new inference-time technologies like
+multi-modality, Chain-of-Thought, reasoning, and agents have introduced an exponential scaling law to inference.
+NVIDIA has the scale and ability to update the entire AI infrastructure on a One Year Rhythm as we can engineer
+and optimize across the full stack and the entire infrastructure.
+The cadence and breadth of our innovation brings more performant AI infrastructure to the market each year,
+delivering exceptional TCO, energy efficiency, and ROI to our customers."
+15,"One Year Rhythm | Supercluster Scale | Full -Stack | CUDA Everywhere
+“Supercharge AI Scaling Law”
+X-Factors
+X-Factors
+X-Factors
+Hopper Blackwell Blackwell-Ultra Rubin
+Rubin GPU Rubin GPU
+Hopper GPU Hopper+ GPU
+Blackwell Ultra GPU
+8S HBM4 12S HBM4
+6S HBM3 6S HBM3e
+288GB HBM3e
+More AI FLOPS
+Vera CPU
+Grace CPU
+NVLink 6 Switch
+NVLink Switch
+3600 GB/sec
+900 GB/sec
+CX8 CX9 SuperNIC
+CX7 BF3
+SuperNIC 1600 Gb/sec
+SuperNIC SuperNIC
+Spectrum Ultra X800 X1600
+Quantum-X400
+Ethernet Switch 512-Radix IB/Ethernet Switch
+Infiniband Switch
+2022 2023 2024 2025 2026 2027"
+16,"One Year Rhythm Drives Annual Cost and Energy Reduction
+Significant reduction in TCO with each generation
+Hopper | 8,000 GPUs | 15MW Blackwell GB200 NVL72 | 2,000 GPUs | 4MW
+4X
+Reduction in Power
+LLM Training Workload: GPT-MoE-1.8T | Train in 90 days | H100 vs GB200 NVL72"
+17,"NVIDIA NVLink Enables New Level of AI Training & Inference Scaling
+NVLink Switch
+GB200 NVL72
+NVLink Switches
+130 TB/s All-to-All BW
+One Giant Blackwell
+1.44 EF FP4
+576TB/s HBM3e
+17"
+18,"NVIDIA Addresses The Entire AI Market
+NVIDIA’s accelerated computing platform encompasses a complete computing stack
+and infrastructure required for customers to build and run AI at scale.
+CUDA-X libraries and microservices leverage the programmability of CUDA to enable thousands
+of applications across a wide range of use cases to run on NVIDIA infrastructure, including AI
+training and inference, data processing, robotics, drug discovery, and consumer internet services.
+NVIDIA has a rich ecosystem of partners who have integrated NVIDIA platform technologies and
+joined our go-to-market. Each industry and market segment may include different domain-
+specific software stacks, ODMs, OEMs, CSPs, 3rd party software platforms, system integrators,
+and system integrations/solution development partners.
+The completeness of the NVIDIA platform for each industry and workload lets us address every
+industry from healthcare, manufacturing, and transportation to retail, CSPs, and
+telecommunications."
+19,"NVIDIA AI Platform and Ecosystem Reaches Every Market
+Accelerate Every Workload Full-Stack, Entire AI Infrastructure
+Every Workload to
+Address the World's Industries
+Data Post
+Agentic AI Robotic AI
+Pre- Training Training
+Inference Inference
+Processing e.g., SDG
+Heavy
+Social Media
+Industries
+Platforms
+SaaS
+Full-Stack Compute-to-Networking
+Enterprises
+AI
+Ecosystem Auto, Healthcare, Logistics,
+Startups
+Energy, FSI, etc.
+OEMs
+Internet
+Every Cloud &
+Services
+ODMs
+Public
+AI Technology
+Cloud
+Regional
+CSP
+Software
+PC & Workstations Edge & Robotics
+Sovereign
+AI
+Telcos
+AI Infrastructure"
+20,"AI Driving Investment Cycle
+and Significant Returns
+AI is accelerating scientific discovery, creativity,
+and productivity across industries
+AI Agents & Copilots Search & Social Media AI Content Creation
+AI Agents, or copilots and AI teammates, automate tasks at superhuman
+Over 1B $700B in 50M creators
+speed, increase employee productivity and accelerate businesses. Agents knowledge workers digital advertising annually globally
+can generate documents, review contracts, help code and debug software,
+operationalize marketing campaigns, and review medical images
+Social media, search and e-commerce apps are using deep recommenders
+to offer more relevant content and generative AI to hyper-customize ads to
+their customers, increasing engagement and monetization
+Creators can generate stunning, photorealistic images or 3D objects with a
+single text prompt—compressing workflows that take days or weeks into
+Legal Services, AI Software Financial
+minutes in industries from advertising to game development
+Education Development Services
+1M legal professionals in the US 30M software developers
+678B annual
+Call center agents augmented with AI chatbots can scale to deliver
+9M educators in the US globally
+credit card transactions
+customer care during peak times, run in-the-loop with customer support
+to provide better service, and capture every interaction to build institutional
+knowledge in high turnover industries
+Drug discovery is seeing order-of-magnitude workflow acceleration using
+generative AI for candidate drug generation and target selection
+Manufacturing is using generative AI to generate ideas to inspire designers,
+accelerate the planning and layout of factories and warehouses; and for Customer Service Drug Discovery Manufacturing
+15M call center agents 1018 molecules in chemical space $50T
+self-learning robots that can handle diverse tasks in changing work
+globally 40 exabytes of genome data of Heavy Industry
+environments
+Climate Tech scientists are using AI to discover new materials for better
+batteries, emulate complex physics to predict long-range weather, estimate
+carbon-capture sites, optimize wind farm output
+Source: Goldman Sachs, Cowen, Statista, Capital One, Wall Street Journal, Resource Watch, NVIDIA internal analysis"
+21,"The Enterprise and Industrial AI Wave
+of Adoption Has Started
+AI brings computing into the core of the $100T global industries. Companies will leverage AI to
+unlock new monetizable applications, enhance employee productivity, and transform their
+business models.
+NVIDIA AI Enterprise platform, which includes NVIDIA NeMo agent on-boarding and operating
+software platform, NVIDIA NIM “model-in-a-container” microservices, and AI Foundry custom-AI
+service, enables enterprises to build and run custom agentic AI applications.
+Industrial AI applications will serve large markets – including 10M factories, 200K warehouses,
+billions of humanoid robots, and 100M autos manufactured each year.
+NVIDIA Omniverse provides a platform for building and deploying autonomous machine
+applications. Omniverse connects to leading design, simulation, and factory control software and
+enables virtual integration of factories and warehouses into operational digital twins."
+22,"Enterprise AI Wave is Here
+Co-Pilots, AI Teammates, and Agents are the New Digital Workforce to Revolution Enterprise Productivity
+This is Mayfield’s webpage of AI companies in their
+portfolio. The illustration and description provide a
+framework of enterprise AI – agents are a new digital
+workforce that will collaborate and accelerate the
+work of employees.
+Specialized AI co-pilots, teammates, or agents will
+collaborate with employees, be given access to
+necessary data, use platform tools like SAP,
+Snowflake, or ServiceNow, and even collaborate with
+other AI agents.
+In time, the world’s companies will hire billions of AI
+agents in its workforce.
+NVIDIA AI Enterprise offers the IT and services
+ecosystem, NVIDIA-optimized NeMo agent lifecycle
+libraries, NIM pre-trained models, and DGX Cloud
+infrastructure to build and deploy enterprise AI.
+Enterprises license NVIDIA AI Enterprise at $4500
+per-GPU per-Year to run NIM and NeMo libraries."
+23,"NVIDIA AI Enterprise Enables IT Ecosystem with State - of-the -Art
+AI Models and Libraries to Build Agentic AI
+NVIDIA AI Enterprise Ecosystem
+System Integrators
+User
+. . .
+Enterprise ISVs
+AI Agent
+. . .
+Database
+Data Platforms
+Action
+NVIDIA NIM
+. . .
+NVIDIA NeMo Retriever
+Vector Database
+Data Cloud and On-Prem Infrastructure
+Flywheel
+. . .
+NVIDIA NeMo"
+24,"NVIDIA Omniverse and AI Revolutionizing Manufacturing & Robotics
+100M Cars Billions in Future
+The next AI wave is physical AI - models that can perceive, understand, and interact
+with the physical world. Physical AI will embody robotic systems – from autonomous
+vehicles to industrial robots and humanoids, to warehouses and factories.
+Three computers and software stacks are required to build physical AI:
+NVIDIA AI on DGX to train the AI model, NVIDIA Omniverse on OVX to teach, test,
+and validate the AI model's skills, and NVIDIA AGX to run the AI software on the robot.
+Enterprises license NVIDIA Omniverse at $4500 per-GPU per-Year. 10M Factories 200K Warehouses
+24"
+25,"Sovereign AI
+Nations produce AI using their own data, infrastructure, workforce, and business networks
+Sovereign AI
+Nations are awakening to the imperative
+to produce artificial intelligence using
+their own infrastructure, data,
+workforces and business networks.
+Nations are building domestic computing
+capacity.
+France
+Scaleway Switzerland
+Japan
+Swisscom Group
+Some governments operate sovereign AI
+National Institute of
+clouds in collaboration with state-owned Advanced Industrial Science
+and Technology (AIST)
+telecommunications providers or utilities.
+Spain
+Other governments partner with local
+Barcelona
+cloud providers to deliver a shared AI Supercomputing
+Center
+computing infrastructure for public- and
+private-sector use. Vietnam
+FPT Smart Cloud
+NVIDIA’s ability to help build AI Ecuador
+Telconet
+infrastructure with our end-to-end
+compute-to-networking technologies,
+full-stack software, AI expertise, and rich
+Singapore
+ecosystem of partners and customers
+Singapore
+Telecommunications Limited
+allows sovereign AI and regional cloud
+(Singtel)
+providers to jumpstart their countries’
+AI ambitions.
+Location of NVIDIA Sovereign AI partners
+25"
+26,"Driving Strong and Profitable Growth
+Revenue ($M) Operating Income ($M)
+$37,997
+$37,134
+Operating Margin %
+68%
+$60,922
+61%
+$56,084
+$26,914 $26,974 $12,690
+$9,040
+$6,803
+$16,675 $3,735
+47%
+34%
+$10,918
+34%
+41%
+FY20 FY21 FY22 FY23 FY24 H1 FY25 FY20 FY21 FY22 FY23 FY24 H1 FY25
+Non-GAAP
+Fiscal year ends in January. Refer to Appendix for reconciliation of Non-GAAP measures. Operating margins rounded to the nearest percent."
+27,"Strong Cash Flow Generation
+Free Cash Flow Capital Allocation
+(Non-GAAP) $28.4B
+$26.9B
+Share Repurchase
+• Utilized $14.9B of cash for repurchases in H1 FY25
+• Additional $50B in stock repurchase authorization,
+adding to $7.5B which remained as of the end of Q2
+Dividend
+• $344M in H1 FY25
+• Dividend increased by 150% in Q2 FY25
+$8.0B
+• Plan to Maintain1
+$4.7B
+$4.3B
+$3.8B Strategic Investments
+• Growing Our Talent
+• Platform Reach & Ecosystem
+FY20 FY21 FY22 FY23 FY24 H1 FY25
+Fiscal year ends in January. Refer to Appendix for reconciliation of Non-GAAP measures. 1 Subject to continuing determination by our Board of Directors."
+28,"Our Market Platforms at a Glance
+Data Center Gaming Professional Visualization Automotive
+78% of FY24 Revenue 17% of FY24 Revenue 3% of FY24 Revenue 2% of FY24 Revenue
+FY24 Revenue $47.5B FY24 Revenue $10.4B FY24 Revenue $1.6B FY24 Revenue $1.1B
+5-YR CAGR 75% 5-YR CAGR 11% 5-YR CAGR 7% 5-YR CAGR 11%
+DGX/HGX/MGX/IGX systems GeForce GPUs for PC gaming NVIDIA RTX GPUs DRIVE Hyperion sensor architecture
+for workstations with AGX compute
+GPU | CPU | DPU | Networking GeForce NOW cloud gaming
+NVIDIA AI software Omniverse software DRIVE AV & IX full stack software
+for ADAS, AV & AI cockpit"
+29,"Reconciliation of Non-GAAP to
+GAAP Financial Measures
+29"
+30,"Reconciliation of Non-GAAP to GAAP Financial Measures
+Operating Income
+Acquisition-Related Stock-Based
+Acquisition Termination Other
+and Margin
+Non-GAAP and Other Costs Compensation GAAP
+Cost (C)
+($ in Millions & (A) (B)
+Margin Percentage)
+$3,735 — (31) (844) (14) $2,846
+FY 2020
+34.2% — (0.3) (7.7) (0.1) 26.1%
+$6,803 — (836) (1,397) (38) $4,532
+FY 2021
+40.8% — (5.0) (8.4) (0.2) 27.2%
+$12,690 — (636) (2,004) (9) $10,041
+FY 2022
+47.2% — (2.5) (7.4) — 37.3%
+$9,040 (1,353) (674) (2,710) (79) $4,224
+FY 2023
+33.5% (5.0) (2.5) (10.0) (0.3) 15.7%
+$37,134 — (583) (3,549) (30) $32,972
+FY 2024
+61.0% — (1.0) (5.8) (0.1) 54.1%
+$10,828 — (311) (1,576) — $8,941
+H1 FY 2024
+52.3% — (1.5) (7.6) — 43.2%
+$37,997 — (286) (2,164) 4 $35,551
+H1 FY 2025
+67.8% — (0.5) (3.9) — 63.4%
+A. Consists of amortization of acquisition-related intangible assets, inventory step-up, transaction costs, compensation charges, and other costs
+B. Stock-based compensation charge was allocated to cost of goods sold, research and development expense, and sales, general and administrative expense
+C. Comprises of legal settlement cost, contributions, restructuring costs and assets held for sale related adjustments"
+31,"Reconciliation of Non-GAAP to GAAP Financial Measures
+Purchases Related to Property Principal Payments Net Cash
+($ in Millions) Free Cash Flow and Equipment on Property Provided by
+and Intangible Assets and Equipment and Intangible Assets Operating Activities
+FY 2020 $4,272 489 — $4,761
+FY 2021 $4,677 1,128 17 $5,822
+FY 2022 $8,049 976 83 $9,108
+FY 2023 $3,750 1,833 58 $5,641
+FY 2024 $26,947 1,069 74 $28,090
+H1 FY 2024 $8,691 537 31 $9,259
+H1 FY 2025 $28,418 1,346 69 $29,833"
+32,32
